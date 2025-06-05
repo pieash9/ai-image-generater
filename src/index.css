@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  button {
+    @apply bg-blue-500 text-white  py-2 px-4 rounded cursor-pointer active:scale-95 duration-300;
+  }
+  input {
+    @apply border border-gray-400 rounded py-2 px-4;
+  }
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a0b2e 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.search-input:focus {
+  outline: none;
+}
