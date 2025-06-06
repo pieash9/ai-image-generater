@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/pieash9/ai-image-generate",
+  "homepage": "https://github.com/pieash9/ai-image-generate/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

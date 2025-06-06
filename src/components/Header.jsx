@@ -1,11 +1,11 @@
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
 
 const Header = ({ onRouteChange, activeRoute }) => {
   return (
     <header className="flex items-center mb-12 justify-between">
-      <div className="flex items-center">
-        <img src={logo} alt="logo" className="h-10" />
-      </div>
+      {/* <div className="flex items-center">
+        <img src={logo} alt="logo" className="h-10" /> 
+      </div> */}
       <ul className="ml-4 text-sm text-zinc-400 flex gap-8">
         <a
           onClick={() => onRouteChange("create")}
