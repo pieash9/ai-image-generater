@@ -8,7 +8,7 @@ const initialState = {
   model: "flux",
   width: 1024,
   height: 1024,
-  noOfImages: 9,
+  noOfImages: 3,
   seed: null,
   loading: false,
   error: null,
