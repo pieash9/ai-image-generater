@@ -13,7 +13,7 @@ const Header = ({ onRouteChange, activeRoute }) => {
             activeRoute === "create" ? "text-zinc-200" : ""
           }`}
         >
-          Create Images
+          Create Image
         </a>
         <a
           onClick={() => onRouteChange("download")}
