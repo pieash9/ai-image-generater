@@ -18,7 +18,7 @@ const useGenerateImage = () => {
 
       try {
         const res = await fetch(
-          `https://image.pollinations.ai/prompt/${prompt}?model=${model}&width=${width}&height=${height}&seed=${seed}`
+          `https://image.pollinations.ai/prompt/${prompt}?model=${model}&width=${width}&height=${height}&seed=${seed}&nologo=true`
         );
 
         if (!res.ok) throw new Error(`Image ${i + 1} failed to load`);
